@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+}
+
+.banner1, .banner2 {
+  display: flexbox;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(#d3d1d1), to(#7e7b7b));
+  background-image: linear-gradient(to right, #d3d1d1, #7e7b7b);
+  height: 60px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  color: #2c261d 44, 38, 29;
+}
+
+#gamboa {
+  background-image: url("./gamboabanner.png");
+  background-size: cover;
+  height: 292px;
+  width: 100%;
+}
+
+p {
+  color: #d3d1d1;
+  background-color: #2c261d;
+  height: 80px;
+  font-size: 20px;
+}
+
+.back2home {
+  color: #d3d1d1;
+}
+/*# sourceMappingURL=odkeok.css.map */
